@@ -4,7 +4,6 @@ body{
     font-family: Roboto;
     margin: 0;
     padding: 0;
-    
 }
 
 #descuentos{
@@ -13,16 +12,16 @@ body{
     font-weight: normal;
     font-size: 15px;
     padding: 10px;
+    margin-bottom: 0pt;
 }
 
-#titulo{
+h1{
     background-color: #00669F;
     font-size: 40px;
     font-weight: 400;
-    padding-top: 28px;
-    padding-left: 28px;
-    padding-bottom: 26px;
-    text-align: left;
+    max-height: 101px;
+    margin: 0px;
+    padding: 28px;
 }
 
 /***** SECTION *****/
@@ -37,7 +36,6 @@ section{
 h2{
     font-size: 30px;
     font-weight: 400;
-    line-height: 35px;
     text-align: center;
     margin-top: 80px;
 }
@@ -53,6 +51,7 @@ h2{
 i{
     bottom: 4%;
     color: red;
+    font-size: 30px;
     left: 5%;
     position: absolute;
     right: 0%;
