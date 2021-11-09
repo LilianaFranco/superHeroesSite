@@ -1,131 +1,138 @@
 /***** BODY *****/
 
 body{
+    font-family: Roboto;
     margin: 0;
     padding: 0;
-    font-family: Roboto;
-
+    
 }
 
 #descuentos{
     background-color: #1CD1B0;
-    padding: 10px;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    line-height: 18px;
+    padding: 10px;
 }
 
 #titulo{
     background-color: #00669F;
+    font-size: 40px;
+    font-weight: 400;
     padding-top: 28px;
     padding-left: 28px;
     padding-bottom: 26px;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 47px;
-    letter-spacing: 0em;
     text-align: left;
 }
 
 /***** SECTION *****/
 
 section{
-    position: relative;
     background-color: black;
+    position: relative;
 }
+
+/***** ARTICLE *****/
 
 h2{
     font-size: 30px;
     font-weight: 400;
     line-height: 35px;
-    letter-spacing: 0em;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
+}
+
+.pictureBox{
+    height: 193px;
+}
+
+.contentBox{
+    height: 250px;
 }
 
 i{
-    position: absolute;
+    bottom: 4%;
+    color: red;
     left: 5%;
+    position: absolute;
     right: 0%;
     top: 4%;
-    bottom: 4%;
 }
 
 p{
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
-    letter-spacing: 0em;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: left;
 }
 
-.characterBackground{
-    position: absolute;
-    left: 30%;
-    right: 30%;
-    bottom: 45%;
+.characterpicture{
+    bottom: 50%;
     border-radius: 50%;
+    height: 117px;
+    left: 30%;
+    position: absolute;
+    right: 30%;
+}
+
+.characterBackground{
+    height: 193px;
 }
 
 button{
-    position: absolute;
-    left: 30%;
-    right: 30%;
-    width: 128px;
-    height: 48px;
     background-color: #00669F;
-    color: #F3F3F3;
-    text-align: center;
     border-radius: 10px;
     border-style: none; 
+    color: #F3F3F3;
+    height: 48px;
+    left: 30%;
+    position: absolute;
+    right: 30%;
+    text-align: center;
+    width: 128px;
 }
-
-
 
 /***** Batman *****/
 
 .batman{
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    left: 32px;
     margin-right: 30px;
     position: absolute;
+    top: 80px;
     width: 300px;
-    left: 32px;
-    top: 485px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-color: #F3F3F3;
 }
 
-i{
-    color: red;
-}
 /***** Harley *****/
 
 .harley{
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    left: 362px;
     margin-right: 30px;
     position: absolute;
+    top: 80px;
     width: 300px;
-    left: 362px;
-    top: 485px;
-    background: #00669F;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-color: #F3F3F3;
 }
 
 /***** Batman2 *****/
 
 .batman2{
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    left: 692px;
     margin-right: 30px;
     position: absolute;
+    top: 80px;
     width: 300px;
-    left: 692px;
-    top: 486px;
-    background: #00669F;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-color: #F3F3F3;
 }
 
 /***** FOOTER *****/
 footer{
     background-color: #00669F;
+    position: absolute;
+    bottom: 0;
 }
