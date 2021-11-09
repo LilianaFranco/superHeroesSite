@@ -1,0 +1,131 @@
+/***** BODY *****/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+
+}
+
+#descuentos{
+    background-color: #1CD1B0;
+    padding: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+#titulo{
+    background-color: #00669F;
+    padding-top: 28px;
+    padding-left: 28px;
+    padding-bottom: 26px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/***** SECTION *****/
+
+section{
+    position: relative;
+    background-color: black;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 100px;
+}
+
+i{
+    position: absolute;
+    left: 5%;
+    right: 0%;
+    top: 4%;
+    bottom: 4%;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.characterBackground{
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    bottom: 45%;
+    border-radius: 50%;
+}
+
+button{
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    width: 128px;
+    height: 48px;
+    background-color: #00669F;
+    color: #F3F3F3;
+    text-align: center;
+    border-radius: 10px;
+    border-style: none; 
+}
+
+
+
+/***** Batman *****/
+
+.batman{
+    margin-right: 30px;
+    position: absolute;
+    width: 300px;
+    left: 32px;
+    top: 485px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #F3F3F3;
+}
+
+i{
+    color: red;
+}
+/***** Harley *****/
+
+.harley{
+    margin-right: 30px;
+    position: absolute;
+    width: 300px;
+    left: 362px;
+    top: 485px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #F3F3F3;
+}
+
+/***** Batman2 *****/
+
+.batman2{
+    margin-right: 30px;
+    position: absolute;
+    width: 300px;
+    left: 692px;
+    top: 486px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #F3F3F3;
+}
+
+/***** FOOTER *****/
+footer{
+    background-color: #00669F;
+}
