@@ -132,7 +132,14 @@ h1{
 section{
     display: flex;
     flex-direction: row;
+    align-items: baseline;
+    height: 598px;
     margin: 20px;
+}
+
+.card{
+    height:95%;
+    margin-bottom: 30px;
 }
 
 .characterpicture{
@@ -142,13 +149,10 @@ section{
     width: 40%;
 }
 
-p{
-margin-bottom: 30%;
-}
-
 button{
     position: absolute;
     bottom:0px;
+    bottom: 0pt;
 }
 
 footer{
@@ -156,7 +160,7 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    font-size: 24px;    
+    font-size: 24px;   
 }
 
 footer img{
