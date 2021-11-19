@@ -26,10 +26,11 @@ h1{
 /***** SECTION *****/
 
 section{
+    align-items: center;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
 }
 
 /***** CARDS *****/
@@ -41,7 +42,6 @@ section{
     display: flex;
     flex-direction: column;
     margin: 10px;
-    width: 90%;
     position: relative;
 }
 
@@ -118,9 +118,6 @@ footer img{
 
 @media (min-width: 640px){
 
-/********* Tablets *********/
-
-/***** header *****/
 #descuentos{
     font-size: 24px;
 }
@@ -130,16 +127,16 @@ h1{
 }
 
 section{
+    align-items: baseline;
     display: flex;
     flex-direction: row;
-    align-items: baseline;
-    height: 598px;
+    justify-content: space-between;
     margin: 20px;
 }
 
 .card{
-    height:95%;
-    margin-bottom: 30px;
+    max-width: 300px;
+    height:625px;
 }
 
 .characterpicture{
@@ -166,8 +163,5 @@ footer{
 footer img{
     width: 10%;
 }
-}
 
-@media (min-width: 640px){
-/**** Desktop ****/
 }
