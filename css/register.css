@@ -58,7 +58,6 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
     width: 85%;
 }
 
@@ -71,17 +70,40 @@ form input{
     outline: 'none';
 }
 
-#submit{
+.buttonBox{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
     background-color: #1CD1B0;
     border-radius: 5px;
     border-style: none; 
     color: #F3F3F3;
     height: 40px;
     margin: 20px;
+    width: 50%;
     text-align: center;
-    width: 128px;
     align-self: center;
 }
+
+form span{
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+form span a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #1CD1B0;
+    font-weight: 500;
+}
+
+form span a:hover{
+    color: #00669F;
+    font-weight: 700;
+}
+
 
 /***** FOOTER *****/
 footer{
@@ -125,15 +147,19 @@ h2{
     font-size: 36px;
 }
 
+select{
+    height: 21px;
+}
+
+.buttonBox{
+    align-content: center;
+}
+
 form input:focus{
     border: 3px solid orange;
 }
 
-form textarea:focus{
-    border: 3px solid orange;
-}
-
-#submit:hover{
+.button:hover{
     background-color: #00669F;
 }
 
